@@ -1,46 +1,52 @@
-@media screen and (max-width: 1024px) {
-  .header {
-    display: none;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .loan-status {
-    display: none;
-  }
-}
 @media screen and (min-width: 1024px) {
   .form__field-wrap:nth-child(4) .form__checkbox-wrap {
     display: none;
   }
 }
+
 @media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .loan-status {
+    display: none;
+  }
+
   .main__title {
     padding: 0 40px;
   }
+
   .form {
     padding: 20px 30px;
   }
+
   .form__field-wrap {
     max-width: -webkit-calc(50% - 10px);
     max-width: calc(50% - 10px);
     margin: 10px 5px;
   }
+
   .form__field-wrap:nth-child(1) .form__checkbox-wrap,
   .form__field-wrap:nth-child(2) .form__checkbox-wrap {
     display: none;
   }
 }
+
 @media screen and (max-width: 640px) {
   .main__title {
     padding: 0 20px;
   }
+
   .form {
     padding: 20px 15px;
   }
+
   .form__field-wrap {
     max-width: -webkit-calc(100% - 10px);
     max-width: calc(100% - 10px);
   }
+
   .form__field-wrap:not(:nth-child(3)) .form__checkbox-wrap {
     display: none;
   }

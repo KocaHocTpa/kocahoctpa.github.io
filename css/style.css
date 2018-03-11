@@ -127,6 +127,15 @@
   border: 1px solid #e63b12;
   background: #ffffff;
 }
+.form-control--error .form-control__field--select {
+  background: #ffffff url(/img/down-arrow.svg) no-repeat 95% 55%;
+  -webkit-background-size: 30px 30px;
+          background-size: 30px 30px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 22px 30px 0 15px;
+}
 .form-control--error .form-control__field:focus,
 .form-control--error .form-control__field:active {
   border: 1px solid #8fc030;

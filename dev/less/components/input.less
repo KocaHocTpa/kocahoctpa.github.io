@@ -68,7 +68,12 @@
     .form-control__field{
       border: 1px solid @error;
       background: #ffffff;
-
+      &--select{
+        background: #ffffff url(/img/down-arrow.svg) no-repeat 95% 55%;
+        background-size: 30px 30px;
+        appearance: none;
+        padding: 22px 30px 0 15px;
+      }
       &:focus, &:active {
         ~ .form-control__placeholder{
           color: #cccccc;
