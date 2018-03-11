@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "PlayRegular";
+  src: url("../fonts/PlayRegular/PlayRegular.eot");
+  src: url("../fonts/PlayRegular/PlayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayRegular/PlayRegular.woff") format("woff"), url("../fonts/PlayRegular/PlayRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PlayBold";
+  src: url("../fonts/PlayBold/PlayBold.eot");
+  src: url("../fonts/PlayBold/PlayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayBold/PlayBold.woff") format("woff"), url("../fonts/PlayBold/PlayBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1024px) {
+  .form__field-wrap:nth-child(4) .form__checkbox-wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .loan-status {
+    display: none;
+  }
+
+  .main__title {
+    padding: 0 40px;
+  }
+
+  .form {
+    padding: 20px 30px;
+  }
+
+  .form__field-wrap {
+    max-width: -webkit-calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    margin: 10px 5px;
+  }
+
+  .form__field-wrap:nth-child(1) .form__checkbox-wrap,
+  .form__field-wrap:nth-child(2) .form__checkbox-wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main__title {
+    padding: 0 20px;
+  }
+
+  .form {
+    padding: 20px 15px;
+  }
+
+  .form__field-wrap {
+    max-width: -webkit-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+  }
+
+  .form__field-wrap:not(:nth-child(3)) .form__checkbox-wrap {
+    display: none;
+  }
+}ap:not(:nth-child(3)) .form__checkbox-wrap {
+    display: none;
+  }
+}

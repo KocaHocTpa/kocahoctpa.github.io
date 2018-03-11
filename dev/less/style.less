@@ -1,0 +1,20 @@
+@import "./core/variable";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: @playRegular, "Arial";
+  &:hover, &:focus{
+    outline: none;
+  }
+}
+
+@import "./components/input";
+@import "./components/checkbox";
+@import "./components/text";
+@import "./components/jquery-ui";
+
+@import "./desktop/header";
+@import "./desktop/status-block";
+@import "./desktop/form";

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-less": "^3.5.0",
+    "gulp-plumber": "^1.2.0"
+  }
+}

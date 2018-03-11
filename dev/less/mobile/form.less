@@ -1,0 +1,51 @@
+@media screen and (min-width: 1024px) {
+  .form{
+    &__field-wrap{
+      &:nth-child(4){
+        .form__checkbox-wrap{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .main{
+    &__title{
+      padding: 0 40px;
+    }
+  }
+  .form{
+    padding: 20px 30px;
+    &__field-wrap{
+      max-width: ~'calc(50% - 10px)';
+      margin: 10px 5px;
+      &:nth-child(1), &:nth-child(2){
+        .form__checkbox-wrap{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main{
+    &__title{
+      padding: 0 20px;
+    }
+  }
+  .form{
+    padding: 20px 15px;
+    &__field-wrap{
+      max-width: ~'calc(100% - 10px)';
+
+      &:not(:nth-child(3)){
+        .form__checkbox-wrap{
+          display: none;
+        }
+      }
+    }
+  }
+}

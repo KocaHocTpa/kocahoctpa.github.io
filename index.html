@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Анкета kredit24.kz</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="/img/logo_head_ank.png" alt="Кредит24">
+        </div>
+        <div class="header__info">
+            <div class="header__call-center-work-time">Наш контакт-центр с 8:00 до 20:00</div>
+            <span class="header__call-center-phone">+7 (727) 355-24-24</span>
+            <a class="header__call-center-phone mobile-only" href="tel:+77273552424" >+7 (727) 355-24-24</a>
+        </div>
+    </header>
+    <section class="loan-status">
+        <ul class="loan-status__steps">
+            <li class="loan-status__step-item loan-status__step-item--active">
+                <div class="loan-status__step-number">1</div>
+                <div class="loan-status__step-name">Регистрация</div>
+            </li>
+            <li class="loan-status__step-item">
+                <div class="loan-status__step-number">2</div>
+                <div class="loan-status__step-name">Контакты</div>
+            </li>
+            <li class="loan-status__step-item">
+                <div class="loan-status__step-number">3</div>
+                <div class="loan-status__step-name">Доходы и расходы</div>
+            </li>
+            <li class="loan-status__step-item">
+                <div class="loan-status__step-number">4</div>
+                <div class="loan-status__step-name">Подтверждение</div>
+            </li>
+            <li class="loan-status__step-item">
+                <div class="loan-status__step-number">5</div>
+                <div class="loan-status__step-name">Отправка</div>
+            </li>
+        </ul>
+        <div class="loan-status__prescoring prescoring">
+            <div class="prescoring__current-chance">Вероятность одобрения займа 10%</div>
+            <div class="prescoring__pick-up-chance">10% за предоставление личных данных</div>
+        </div>
+    </section>
+    <section class="main">
+        <h1 class="main__title title">Личные сведения</h1>
+        <form class="main__form form">
+            <div class="form__field-wrap">
+                <div class="form-control ">
+                    <p class="form-control__info">Введите ваше фамилию как указано в документе, удостоверяющем личность</p>
+                    <input id="lastname" name="lastname" type="text" class="form-control__field">
+                    <label for="lastname" class="form-control__placeholder">Фамилия</label>
+                </div>
+                <div class="form__checkbox-wrap"></div>
+            </div>
+            <div class="form__field-wrap ">
+                <div class="form-control">
+                    <p class="form-control__info">Введите ваше имя как указано в документе, удостоверяющем личность</p>
+                    <input id="firstname" name="firstname" type="text" class="form-control__field">
+                    <label for="firstname" class="form-control__placeholder">Имя</label>
+                </div>
+                <div class="form__checkbox-wrap"></div>
+            </div>
+            <div class="form__field-wrap">
+                <div class="form-control">
+                    <p class="form-control__info">Введите ваше отчество как указано в документе, удостоверяющем
+                        личность</p>
+                    <input id="secondname" name="secondname" type="text" class="form-control__field">
+                    <label for="secondname" class="form-control__placeholder">Отчество</label>
+                </div>
+                <div class="form__checkbox-wrap">
+                    <label class="checkbox">
+                        <input name="empty_secondname" id="empty_secondname" type="checkbox" class="checkbox__input">
+                        <span class="checkbox__visual">
+                            <span class="checkbox__inset-cube"></span>
+                        </span>
+                        <span class="checkbox__text">Нет отчества</span>
+                    </label>
+                </div>
+            </div>
+            <div class="form__field-wrap">
+                <div class="form-control">
+                    <p class="form-control__info"></p>
+                    <input id="b_date"  name="b_date" type="text" class="form-control__field">
+                    <label for="b_date" class="form-control__placeholder">Дата рождения</label>
+                </div>
+                <div class="form__checkbox-wrap">
+                </div>
+            </div>
+            <div class="form__field-wrap">
+                <div class="form-control">
+                    <p class="form-control__info">Чтобы изменить сведения, позвоните в наш контакт-центр на номер +7
+                        (727) 355 24 24</p>
+                    <select id="sex" name="sex" class="form-control__field form-control__field--select">
+                        <option value="-1" selected></option>
+                        <option value="0">Женский</option>
+                        <option value="1">Мужской</option>
+                    </select>
+                    <label for="sex"  class="form-control__placeholder">Пол</label>
+                </div>
+            </div>
+            <div class="form__field-wrap">
+                <div class="form-control">
+                    <p class="form-control__info">Неверный ИИН — причина для отказа в займе. Проверьте, верно ли вы
+                        ввели номер. Изменить ИИН можно только через контакт-центр Кредит24</p>
+                    <input id="iin" name="iin" type="text" class="form-control__field">
+                    <label for="iin" class="form-control__placeholder">ИИН</label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script defer src="/js/jquery.js"></script>
+    <script defer src="/js/jquery-ui.min.js"></script>
+    <script defer type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/i18n/jquery-ui-i18n.min.js"></script>
+    <script defer src="/js/jquery.mask.min.js"></script>
+    <script defer src="/js/main.js"></script>
+</body>
+</html>
